@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #23272a; /* Discord dark mode background color */
+    color: #ffffff; /* Light text for readability on dark background */
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px; /* Added padding */
+}
+form {
+    background-color: #2C2F33; /* Slightly lighter shade for form background */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 40px 80px rgba(255, 255, 255, 0.1);
+    width: 100%; /* Full width forms can be too wide on large screens */
+    max-width: 400px; /* Max width for better aesthetics */
+}
+input, button {
+    color: #000; /* Making text inside inputs and buttons dark for contrast */
+    margin-top: 10px; /* Uniform margin for vertical spacing */
+    width: 100%; /* Full width for inputs and button */
+}
+label {
+    margin-top: 10px;
+    float: left; /* Align labels to the left */
+    color: #ffffff; /* Ensuring labels are visible against the dark background */
+}
+#monthlyPayment {
+    margin-top: 20px; /* Added space above the result paragraph */
+}
+button {
+    background-color: #7289da; /* Discord-like button color */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #5b6eae;
+}
+
+.centered-header {
+    text-align: center; /* Centering text and nav items */
+}
